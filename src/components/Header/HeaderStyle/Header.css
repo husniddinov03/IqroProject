@@ -1,0 +1,119 @@
+header {
+  min-width: 1440px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+header .header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 170px;
+}
+header .header-box .header-button {
+  background: #FFFFFF;
+  padding: 24px 40px;
+  border-radius: 80px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 800;
+  color: #FFFFFF;
+  color: #2E2E2E;
+  margin-top: 90px;
+}
+header .header-box .hb2 {
+  display: none;
+}
+header .header-box .header-item h1 {
+  width: 680px;
+  font-size: 60px;
+  font-weight: 800;
+  color: #FFFFFF;
+  line-height: 68px;
+}
+header .header-box .header-item p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+header .header-box .head-item-2 {
+  display: flex;
+  transform: translateY(90px);
+}
+header .header-box .head-item-2 .header-img-1 {
+  transform: translate(31px, -20px);
+}
+header .header-box .head-item-2 .header-img-2 {
+  transform: translateX(-36px);
+}
+header .header-box .header-shadow1 {
+  width: 691px;
+  height: 662px;
+  top: 355px;
+  left: 0;
+  transform: translate(-300px, 150px);
+  filter: blur(190px);
+  border-radius: 50%;
+}
+header .header-box .header-shadow2 {
+  width: 1020px;
+  height: 976px;
+  top: 0;
+  right: 0;
+  transform: translate(590px, -590px);
+  filter: blur(170px);
+  border-radius: 50%;
+}
+
+@media (max-width: 992px) {
+  header {
+    width: 992px;
+  }
+  header .header-box h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFFFFF;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    width: 768px;
+  }
+}
+@media (max-width: 576px) {
+  header {
+    width: 100%;
+  }
+  header .header-box {
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  header .header-box .header-item {
+    width: 576px;
+  }
+  header .header-box h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFFFFF;
+  }
+  header .header-box .hb1 {
+    display: none;
+  }
+  header .header-box .hb2 {
+    width: 510px;
+    margin-top: 120px;
+    display: block;
+  }
+  header .header-box .header-shadow1 {
+    display: none;
+  }
+  header .header-box .header-shadow2 {
+    transform: translate(400px, -400px);
+  }
+}/*# sourceMappingURL=Header.css.map */

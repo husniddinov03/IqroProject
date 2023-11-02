@@ -1,0 +1,138 @@
+@mixin text($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+    color: #FFFFFF;
+}
+
+@mixin w_h($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.job {
+    width: 100%;
+    margin: 70px auto;
+    position: relative;
+
+    h2 {
+        @include text(50px, 800);
+        text-align: center;
+    }
+
+    .job-box {
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+        flex-wrap: wrap;
+        background: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) -0.85%, rgba(255, 255, 255, 0) 104.91%),
+            linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
+        border-radius: 13px;
+        border: 2px solid #FFFFFF47;
+        padding: 65px 0;
+        margin-top: 55px;
+        position: relative;
+        z-index: 3223;
+
+
+        .job-item {
+            width: 40%;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+
+            p {
+                @include text(30px, 600);
+                line-height: 40px;
+            }
+
+            img {
+                width: 83px;
+                height: 83px;
+            }
+        }
+    }
+
+    .job-shadow {
+        @include w_h(80%, 150%);
+        position: absolute;
+        transform: translate(340px, -80px);
+        border-radius: 20% 0 0 0;
+        filter: blur(180px);
+        top: 0;
+        right: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .job {
+        h2 {
+            @include text(40px, 800);
+        }
+
+        .job-box {
+            .job-item {
+                p {
+                    @include text(22px, 600);
+                }
+
+                img {
+                    @include w_h(62px, 62px);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .job {
+        .job-box {
+            .job-item {
+                width: 40%;
+
+                p {
+                    @include text(16px, 600);
+                }
+
+                img {
+                    @include w_h(46px, 46px);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .job {
+        .job-box {
+            width: 576px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 40px;
+
+            .job-item {
+                width: 110%;
+                padding: 0 50px;
+
+                p {
+                    @include text(30px, 600);
+                }
+
+                img {
+                    @include w_h(83px, 83px);
+                }
+            }
+        }
+
+        .job-shadow {
+            width: 110%;
+        }
+    }
+}
+
+@media (max-width: 552px) {
+    .job{
+        width: 113%;
+    }
+}

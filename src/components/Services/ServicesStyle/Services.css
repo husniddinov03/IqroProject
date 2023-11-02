@@ -1,0 +1,108 @@
+.services {
+  width: 100%;
+  position: relative;
+}
+.services .container {
+  width: 100%;
+}
+.services .container h2 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 30px;
+}
+.services .container .services-box {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  justify-content: space-around;
+}
+.services .container .services-box .services-item {
+  padding: 20px 30px 30px;
+  border: 2px solid rgba(255, 255, 255, 0.2784313725);
+  border-radius: 0 0 80px;
+  background: linear-gradient(145.77deg, rgba(255, 255, 255, 0.28) 0%, rgba(255, 255, 255, 0) 105.76%), linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
+}
+.services .container .services-box .services-item h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 41px;
+}
+.services .container .services-box .services-item button {
+  width: 210px;
+  height: 52px;
+  border-radius: 80px;
+  background: #FFFFFF;
+  font-size: 16px;
+  font-weight: 800;
+  color: #2E2E2E;
+  margin-top: 40px;
+}
+.services .container .carusel {
+  display: none;
+}
+.services .service-shadow {
+  width: 60%;
+  height: 80%;
+  border-radius: 90% 0 0 0;
+  transform: translate(180px, 140px);
+  bottom: 0;
+  right: 0;
+  filter: blur(140px);
+}
+
+@media (max-width: 992px) {
+  .services .container h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFFFFF;
+  }
+  .services .container .services-box .services-item h2 {
+    font-size: 26px;
+    font-weight: 6000;
+    color: #FFFFFF;
+  }
+}
+@media (max-width: 768px) {
+  .services-box .services-item h2 {
+    font-size: 20px;
+    font-weight: 6000;
+    color: #FFFFFF;
+  }
+}
+@media (max-width: 576px) {
+  .services {
+    width: 100%;
+  }
+  .services .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services .container .services-box .services-item {
+    padding-bottom: 30px;
+  }
+  .services .container .services-box .services-item h2 {
+    font-size: 45px;
+    font-weight: 6000;
+    color: #FFFFFF;
+  }
+  .services .container .ser-box {
+    display: none;
+  }
+  .services .container .carusel {
+    display: block;
+    width: 450px;
+    flex-wrap: nowrap;
+  }
+  .services .container .carusel .services-button {
+    width: 275px;
+    height: 68px;
+    margin-bottom: 30px;
+    transform: translateX(85px);
+  }
+}/*# sourceMappingURL=Services.css.map */
