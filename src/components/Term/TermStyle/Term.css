@@ -100,7 +100,6 @@
 
 .term-modal {
   margin: auto;
-  position: fixed;
 }
 .term-modal .term-form {
   display: flex;

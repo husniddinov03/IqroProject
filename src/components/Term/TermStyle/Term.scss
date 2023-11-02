@@ -106,7 +106,7 @@
 
 .term-modal {
     margin: auto;
-    position: fixed;
+    // position: fixed;
 
     .term-form {
         display: flex;
@@ -175,7 +175,6 @@
 @media (max-width: 768px) {
     .term {
         width: 100%;
-
         .term-box {
             width: 750px;
             height: 240px;

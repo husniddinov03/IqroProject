@@ -16,7 +16,6 @@ const Home = () => {
                 <Digital/>
                 <Term/>
             </main>
-
             <Footer />
         </div>
     )
