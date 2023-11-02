@@ -4,7 +4,6 @@ import { Modal } from 'antd';
 import axios from 'axios';
 import sendActiveTrue from './TermStyle/Success.png'
 
-
 const Term = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [formData, setFormData] = useState(null)
@@ -13,6 +12,7 @@ const Term = () => {
 
     const [termItem, setTermItem] = useState(false)
     const [termItemOrg, setTermItemOrg] = useState(true)
+
 
     const showModal = () => {
         setIsModalOpen(true);
@@ -49,7 +49,7 @@ const Term = () => {
         const newForm = new FormData(e.target)
         const formValues = Object.fromEntries(newForm.entries());
 
-        
+
         if (!formData) {
             setFormData(formValues);
           } else {
@@ -108,7 +108,7 @@ const Term = () => {
                                 </div> : <></>}
                         </form> :
                         <>
-                            <div style={!termItemOrg ? { display: "none" } : { display: "flex", justifyContent: "center" }} className='sendActive'>
+                            <div style={ { display: "flex", justifyContent: "center" }} className='sendActive'>
                                 <img src={sendActiveTrue} alt="No image" />
                                 <h2>Cпасибо
                                     за вашу заявку!</h2>
@@ -117,7 +117,7 @@ const Term = () => {
                             </div>
                         </>}
                     {termItem ? <button className='term-modal-btn' onClick={showModal}>Получить</button> : <></>}
-                    {formDataResp ? <button style={{ color: "#219653", padding: "40px 0", marginTop: "40px" }} onClick={ termItemSendFunc}>отправить</button> : <></>}
+                    {/* {formDataResp ? <button style={{ color: "#219653", padding: "40px 0", marginTop: "40px" }} onClick={ termItemSendFunc}>отправить</button> : <></>} */}
                     <button className='term-modal-btn' onClick={showModal}>Получить</button>
                     {!termItem ? <button className='term-resp-btn' onClick={()=> termItemResp()}>Получить</button> : <></>}
                 </div>
