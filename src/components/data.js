@@ -5,37 +5,37 @@ const data = [
         id: uuid4(),
         title: "Разработка ",
         titleCont: "сайтов",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quam modi tenetur quae minus autem corporis eum repellendus consequuntur totam labore provident! Obcaecati, ducimus"
+        text: "Разработка веб-сайтов — это процесс проектирования и создания веб-сайтов, работающих в Интернете. Благодаря этому процессу вы сможете создавать веб-сайты, отображать информацию, добавлять интерактивность и общаться с пользователями."
     },
     {
         id: uuid4(),
         title: "Мобильные ",
         titleCont: "приложения",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quam modi tenetur quae minus autem corporis eum repellendus consequuntur totam labore provident! Obcaecati, ducimus"
+        text: "Разработка мобильных приложений — это процесс проектирования и создания приложений для мобильных устройств. Благодаря этому процессу вы сможете создавать приложения для мобильных устройств,…… … отображать информацию, добавлять интерактивность и общаться с пользователями."
     },
     {
         id: uuid4(),
         title: "Маркетинг ",
         titleCont: "продвижение",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quam modi tenetur quae minus autem corporis eum repellendus consequuntur totam labore provident! Obcaecati, ducimus"
+        text: "Маркетинговое продвижение включает стратегии и действия, используемые для продажи продуктов или услуг компании или организации. Это делается компанией с целью улучшения практики, укрепления отношений с клиентами и увеличения продаж."
     },
     {
         id: uuid4(),
         title: "SMM- ",
         titleCont: "продвижение",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quam modi tenetur quae minus autem corporis eum repellendus consequuntur totam labore provident! Obcaecati, ducimus"
+        text: "SMM-реклама, сокращение от «Маркетинг в социальных сетях». Его цель — внедрить рекламные инструменты на социальных платформах и рассылать их по каналам социальных сетей для продажи компании, организации или услуг."
     },
     {
         id: uuid4(),
         title: "SEO- ",
         titleCont: "оптимизация",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quam modi tenetur quae minus autem corporis eum repellendus consequuntur totam labore provident! Obcaecati, ducimus"
+        text: "SEO-оптимизация — это аббревиатура от «Поисковая оптимизация». Это процесс оптимизации веб-сайтов для поисковых систем (например, Google). SEO-оптимизация направлена ​​на внесение необходимых изменений, чтобы веб-сайты занимали более высокие позиции в поисковых системах."
     },
     {
         id: uuid4(),
         title: "Брендинг и ",
         titleCont: "айдентика",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quam modi tenetur quae minus autem corporis eum repellendus consequuntur totam labore provident! Obcaecati, ducimus"
+        text: ""
     },
 ]
 

@@ -8,7 +8,7 @@ const Job = () => {
 
             <div className="job-box">
 
-                {data.map(text => {
+                {data?.map(text => {
                     return (
                         <div className="job-item" key={text.id}>
                             <img src={text.img} alt="No image" />

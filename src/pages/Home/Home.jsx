@@ -8,7 +8,7 @@ import Term from '../../components/Term/Term'
 
 const Home = () => {
     return (
-        <div style={{minWidth: "1440px"}}>
+        <div>
             <Header />
             <main>
                 <Services />
