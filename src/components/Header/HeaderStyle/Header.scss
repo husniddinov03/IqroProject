@@ -5,8 +5,8 @@
 }
 
 header {
-    min-width: 1440px;
-    width: 100%; 
+    // min-width: 1440px;
+    width: 1440px; 
     overflow: hidden;
     position: relative;
 
@@ -83,7 +83,7 @@ header {
 
 @media (max-width: 992px) {
     header {
-        width: 992px;
+        width: 100%;
 
         .header-box {
             h1 {
@@ -95,7 +95,8 @@ header {
 
     @media (max-width:  768px) {
     header {
-        width: 768px;
+        // width: 768px;
+        width: 100%;
     }
 }
 
@@ -137,10 +138,3 @@ header {
         }
     }
 }
-
-// @media (max-width: 552px) {
-//     header{
-//         overflow: hidden;
-//         width: 113%;
-//     }
-// }

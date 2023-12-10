@@ -160,6 +160,7 @@
 @media (max-width: 768px) {
   .term {
     width: 100%;
+    margin: auto;
   }
   .term .term-box {
     width: 750px;

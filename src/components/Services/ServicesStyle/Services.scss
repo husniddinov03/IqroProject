@@ -66,6 +66,8 @@
 
 @media (max-width: 992px) {
     .services {
+        width: 90%;
+        margin: auto;
         .container {
             h2 {
                 @include text(40px, 800, #FFFFFF);

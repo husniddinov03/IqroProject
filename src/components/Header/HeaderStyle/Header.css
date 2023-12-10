@@ -1,6 +1,5 @@
 header {
-  min-width: 1440px;
-  width: 100%;
+  width: 1440px;
   overflow: hidden;
   position: relative;
 }
@@ -70,7 +69,7 @@ header .header-box .header-shadow2 {
 
 @media (max-width: 992px) {
   header {
-    width: 992px;
+    width: 100%;
   }
   header .header-box h1 {
     font-size: 40px;
@@ -80,7 +79,7 @@ header .header-box .header-shadow2 {
 }
 @media (max-width: 768px) {
   header {
-    width: 768px;
+    width: 100%;
   }
 }
 @media (max-width: 576px) {

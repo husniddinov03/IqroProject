@@ -29,6 +29,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        margin: auto;
         gap: 35px;
         padding: 100px;
 
@@ -120,11 +121,11 @@
 
 @media (max-width: 576px) {
     .digital {
-        width: 113%;
+        width: 100%;
 
         .digital-box {
             flex-direction: column;
-            gap: 130px;
+            // gap: 130px;
             justify-content: center;
 
             h2 {

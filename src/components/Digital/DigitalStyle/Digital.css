@@ -105,11 +105,10 @@
 }
 @media (max-width: 576px) {
   .digital {
-    width: 113%;
+    width: 100%;
   }
   .digital .digital-box {
     flex-direction: column;
-    gap: 130px;
     justify-content: center;
   }
   .digital .digital-box h2 {

@@ -55,6 +55,10 @@
 }
 
 @media (max-width: 992px) {
+  .services {
+    width: 90%;
+    margin: auto;
+  }
   .services .container h2 {
     font-size: 40px;
     font-weight: 800;

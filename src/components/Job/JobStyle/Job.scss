@@ -85,9 +85,10 @@
 
 @media (max-width: 768px) {
     .job {
+        width: 100%;
         .job-box {
             .job-item {
-                width: 40%;
+                // width: 40%;
 
                 p {
                     @include text(16px, 600);
